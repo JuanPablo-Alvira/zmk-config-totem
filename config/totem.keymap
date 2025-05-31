@@ -91,7 +91,7 @@
             bindings = <
                   &kp Q  &kp W  &kp E             &kp R      &kp T    &kp Y  &kp U                      &kp I      &kp O    &kp P
                   &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J                      &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_GUI TAB  &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M                      &kp COMMA  &kp DOT  &kp FSLH       &kp RETURN
+&mt LEFT_GUI TAB  &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M                      &kp COMMA  &kp DOT  &kp FSLH       &mt RIGHT_ALT ENTER
                                 &kp LEFT_CONTROL  &kp SPACE  &sl 1    &sl 2  &quick_sticky RIGHT_SHIFT  &kp BSPC
             >;
         };
@@ -141,10 +141,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp EXCL          &kp AT  &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET       &kp AMPS   &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-           &kp TILDE         &none   &kp RA(S)  &none     &none        &kp MINUS       &kp EQUAL  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&kp GRAVE  &kp SINGLE_QUOTE  &none   &none      &none     &none        &kp UNDERSCORE  &kp PLUS   &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOUBLE_QUOTES
-                                     &trans     &trans    &mo 3        &trans          &trans     &trans
+           &kp EXCL          &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET       &kp AMPS   &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+           &kp TILDE         &none   &none     &none     &none        &kp MINUS       &kp EQUAL  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp GRAVE  &kp SINGLE_QUOTE  &none   &none     &none     &none        &kp UNDERSCORE  &kp PLUS   &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOUBLE_QUOTES
+                                     &trans    &trans    &mo 3        &trans          &trans     &trans
             >;
         };
 
